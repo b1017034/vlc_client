@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0d886b8-149c-4ce1-8fe9-d13f70845e9e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Users\alpine\sdk\go1.15.5" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1kRUlcFkPKq9Qy9r0CQl4CFsyjo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/libvlc-go" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build vlc_server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="vlc_server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="CGO_LDFLAGS" value="-LE:\libvlc\3.0.11" />
+        <env name="CGO_CFLAGS" value="-IE:\libvlc\3.0.11\include -O0 -g -w" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="vlc_server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build vlc_server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key=" CGO_CFLAGS" value="-Ilibvlc\include" />
+        <entry key="CGO_LDFLAGS" value="-LE:libvlc" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2220" y="-3" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605683480939">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2220" y="-3" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683480939" />
+    <state x="2482" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605683554806">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2482" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683554806" />
+    <state x="2748" y="272" width="669" height="489" key="EnvironmentVariablesDialog" timestamp="1605666484424">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2748" y="272" width="669" height="489" key="EnvironmentVariablesDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605666484424" />
+    <state x="2659" y="277" key="FileChooserDialogImpl" timestamp="1605678577216">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2659" y="277" key="FileChooserDialogImpl/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605678577216" />
+    <state width="938" height="265" key="GridCell.Tab.0.bottom" timestamp="1605683533765">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="938" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683533765" />
+    <state width="938" height="265" key="GridCell.Tab.0.center" timestamp="1605683533764">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="938" height="265" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683533764" />
+    <state width="938" height="265" key="GridCell.Tab.0.left" timestamp="1605683533764">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="938" height="265" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683533764" />
+    <state width="938" height="265" key="GridCell.Tab.0.right" timestamp="1605683533765">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="938" height="265" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683533765" />
+    <state width="937" height="376" key="GridCell.Tab.1.bottom" timestamp="1605683435980">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="937" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683435980" />
+    <state width="937" height="376" key="GridCell.Tab.1.center" timestamp="1605683435980">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="937" height="376" key="GridCell.Tab.1.center/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683435980" />
+    <state width="937" height="376" key="GridCell.Tab.1.left" timestamp="1605683435980">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="937" height="376" key="GridCell.Tab.1.left/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683435980" />
+    <state width="937" height="376" key="GridCell.Tab.1.right" timestamp="1605683435980">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state width="937" height="376" key="GridCell.Tab.1.right/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605683435980" />
+    <state x="2388" y="167" key="SettingsEditor" timestamp="1605678596221">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2388" y="167" key="SettingsEditor/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605678596221" />
+    <state x="2816" y="434" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605670735925">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2816" y="434" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605670735925" />
+  </component>
+</project>
