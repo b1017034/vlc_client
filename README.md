@@ -1,4 +1,4 @@
-# vlc_go_measurement
+# vlc_go_meas
 
 ## Prerequisites
 
