@@ -5,8 +5,7 @@
 Install Linux
 Install Windows
 
-Install Mac
-
+[Install Mac](/Install-On-Mac)
 ## Installation
 
 ```
