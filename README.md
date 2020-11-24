@@ -2,10 +2,11 @@
 
 ## Prerequisites
 
-Install Linux
-Install Windows
+[Install Linux](https://github.com/adrg/libvlc-go/wiki/Install-on-Linux)
 
-[Install Mac](/Install-On-Mac)
+[Install Windows](https://github.com/adrg/libvlc-go/wiki/Install-on-Windows)
+
+[Install Mac](https://github.com/b1017034/vlc_go_meas/wiki/Install-on-Mac)
 ## Installation
 
 ```
