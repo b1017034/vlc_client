@@ -44,6 +44,7 @@ func main() {
 
 	// Create a new player.
 	player, err := vlc.NewPlayer()
+	player2, err := vlc.NewPlayer()
 	assertErr(err)
 
 	// Create new GTK application.
@@ -100,12 +101,25 @@ func main() {
 					filename := fileDialog.GetFilename()
 
 					// Load media and start playback.
-					if _, err := player.LoadMediaFromPath(filename); err != nil {
+					_, err := player.LoadMediaFromPath(filename)
+					if  err != nil {
 						log.Printf("Cannot load selected media: %s\n", err)
 						return
 					}
+					media, err := player2.LoadMediaFromPath(filename)
+					if  err != nil {
+						log.Printf("Cannot load selected media: %s\n", err)
+						return
+					}
+					if media != nil {
+						media.AddOptions(
+							":sout=#transcode{vcodec=h264,vb=0,scale=0,acodec=mp4a,ab=128,channels=2,samplerate=44100}" +
+							":rtp{mux=ts,sdp=rtsp://192.168.1.3:554/stream.sdp}")
+						media.AddOptions(":sout-keep")
+					}
 
 					player.Play()
+					player2.Play()
 					playButton.SetLabel("gtk-media-pause")
 				}
 			},
