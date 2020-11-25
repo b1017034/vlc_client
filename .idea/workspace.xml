@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d886b8-149c-4ce1-8fe9-d13f70845e9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layout.glade" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player_darwin.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player_linux.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player_windows.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_darwin.go" beforeDir="false" afterPath="$PROJECT_DIR$/windows/player_darwin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_linux.go" beforeDir="false" afterPath="$PROJECT_DIR$/windows/player_linux.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player_windows.go" beforeDir="false" afterPath="$PROJECT_DIR$/windows/player_windows.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +38,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../.goenv/versions/1.14.4" />
+  <component name="GOROOT" path="C:\Users\alpine\sdk\go1.14" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,21 +63,35 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alpine\Documents\vlc_go_meas\windows" />
       <recent name="$PROJECT_DIR$/vlc/lib" />
       <recent name="$PROJECT_DIR$/vlc2" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go2">
+  <component name="RunManager" selected="Go Build.go build main.go2 (windows)">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="vlc_client" />
       <working_directory value="$PROJECT_DIR$" />
       <envs>
         <env name="CGO_CFLAGS" value="-I /Applications/VLC.app/Contents/MacOS/include -O0 -g" />
+      </envs>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="vlc_client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go2 (windows)" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="vlc_go_meas" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="CGO_LDFLAGS" value="-LE:\libvlc\3.0.11" />
+        <env name="CGO_CFLAGS" value="-IE:\libvlc\3.0.11\include -O0 -g" />
       </envs>
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/main.go" />
@@ -87,11 +116,23 @@
     <list>
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go2" />
+      <item itemvalue="Go Build.go build main.go2 (windows)" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -107,10 +148,14 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="608" y="249" width="463" height="582" key="#Build_Tags_&amp;_Vendoring/0.25.1680.1025@0.25.1680.1025" timestamp="1606204273209" />
-    <state x="602" y="141" width="956" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606204063624">
-      <screen x="0" y="25" width="1680" height="1025" />
+    <state x="2672" y="453" key="#GOROOT" timestamp="1606305363507">
+      <screen x="1920" y="-3" width="1920" height="1050" />
     </state>
-    <state x="2220" y="-3" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605823176278" />
+    <state x="2672" y="453" key="#GOROOT/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606305363507" />
+    <state x="2220" y="-3" width="1092" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606330774335">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2220" y="-3" width="1092" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606330774335" />
     <state x="602" y="141" width="956" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606204063624" />
     <state x="492" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606205108074">
       <screen x="0" y="25" width="1680" height="1025" />
@@ -121,15 +166,15 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="1063" y="203" key="#xdebugger.evaluate/0.25.1680.1025@0.25.1680.1025" timestamp="1605952603408" />
-    <state x="237" y="293" width="1360" height="531" key="EnvironmentVariablesDialog" timestamp="1606204062254">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="2748" y="272" width="669" height="489" key="EnvironmentVariablesDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605666484424" />
-    <state x="237" y="293" width="1360" height="531" key="EnvironmentVariablesDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606204062254" />
-    <state x="2659" y="277" key="FileChooserDialogImpl" timestamp="1605678577216">
+    <state x="2748" y="272" width="1360" height="531" key="EnvironmentVariablesDialog" timestamp="1606330767595">
       <screen x="1920" y="-3" width="1920" height="1050" />
     </state>
-    <state x="2659" y="277" key="FileChooserDialogImpl/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1605678577216" />
+    <state x="2748" y="272" width="669" height="489" key="EnvironmentVariablesDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606330767595" />
+    <state x="237" y="293" width="1360" height="531" key="EnvironmentVariablesDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606204062254" />
+    <state x="2659" y="277" key="FileChooserDialogImpl" timestamp="1606305232785">
+      <screen x="1920" y="-3" width="1920" height="1050" />
+    </state>
+    <state x="2659" y="277" key="FileChooserDialogImpl/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606305232785" />
     <state width="1638" height="342" key="GridCell.Tab.0.bottom" timestamp="1606217658688">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>

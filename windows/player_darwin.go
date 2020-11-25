@@ -1,4 +1,4 @@
-package main
+package windows
 
 import "C"
 import (
@@ -21,7 +21,7 @@ type NSWindow struct {
 	ID unsafe.Pointer
 }
 
-func setPlayerWindow(player *vlc.Player, window *gdk.Window) error {
+func SetPlayerWindow(player *vlc.Player, window *gdk.Window) error {
 	handle := &NSWindow{
 		unsafe.Pointer(C.getNsWindow((*C.GdkWindow)(unsafe.Pointer(window.Native())))),
 	}

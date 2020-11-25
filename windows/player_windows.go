@@ -1,4 +1,4 @@
-package main
+package windows
 
 /*
 #cgo pkg-config: gdk-3.0
@@ -13,7 +13,7 @@ import (
 	"github.com/gotk3/gotk3/gdk"
 )
 
-func setPlayerWindow(player *vlc.Player, window *gdk.Window) error {
+func SetPlayerWindow(player *vlc.Player, window *gdk.Window) error {
 	handle := C.gdk_win32_window_get_handle((*C.GdkWindow)(unsafe.Pointer(window.Native())))
 	return player.SetHWND(uintptr(unsafe.Pointer(handle)))
 }

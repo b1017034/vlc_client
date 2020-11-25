@@ -1,12 +1,14 @@
 package main
 
 import (
+
 	vlc "github.com/adrg/libvlc-go/v3"
 	"github.com/gotk3/gotk3/cairo"
 	"github.com/gotk3/gotk3/glib"
 	"github.com/gotk3/gotk3/gtk"
 	"log"
 	"os"
+	"vlc_server/windows"
 )
 
 const appID = "com.github.libvlc-go.gtk3-media-player-example"
@@ -67,7 +69,7 @@ func main() {
 				// Set window for the player.
 				playerWindow, err := playerArea.GetWindow()
 				assertErr(err)
-				err = setPlayerWindow(player, playerWindow)
+				err = windows.SetPlayerWindow(player, playerWindow)
 				assertErr(err)
 			},
 			"onDrawPlayerArea": func(playerArea *gtk.DrawingArea, cr *cairo.Context) {
