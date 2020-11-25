@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d886b8-149c-4ce1-8fe9-d13f70845e9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/client.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout.glade" beforeDir="false" afterPath="$PROJECT_DIR$/layout.glade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Users\alpine\sdk\go1.14" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../.goenv/versions/1.14.4" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go2 (windows)">
+  <component name="RunManager" selected="Go Build.go build vlc_server/client（MacOS）">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="vlc_client" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,8 +95,8 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go2" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="vlc_client" />
+    <configuration name="go build main.go2（MacOS）" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="vlc_go_meas" />
       <working_directory value="$PROJECT_DIR$" />
       <envs>
         <env name="CGO_LDFLAGS" value="-L/Applications/VLC.app/Contents/MacOS/lib -Wl,-rpath,/Applications/VLC.app/Contents/MacOS/lib" />
@@ -112,7 +109,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build vlc_server/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build vlc_server/client（MacOS）" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="vlc_go_meas" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="CGO_LDFLAGS" value="-L/Applications/VLC.app/Contents/MacOS/lib -Wl,-rpath,/Applications/VLC.app/Contents/MacOS/lib" />
+        <env name="CGO_CFLAGS" value="-I/Applications/VLC.app/Contents/MacOS/include -O0 -g" />
+        <env name="VLC_PLUGIN_PATH" value="/Applications/VLC.app/Contents/MacOS/plugins" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/client/client.go" />
+      <package value="vlc_server/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build vlc_server/client（windows）" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="vlc_go_meas" />
       <working_directory value="$PROJECT_DIR$" />
       <envs>
@@ -127,13 +138,14 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Build.go build main.go2" />
+      <item itemvalue="Go Build.go build main.go2（MacOS）" />
       <item itemvalue="Go Build.go build main.go2 (windows)" />
-      <item itemvalue="Go Build.go build vlc_server/client" />
+      <item itemvalue="Go Build.go build vlc_server/client（MacOS）" />
+      <item itemvalue="Go Build.go build vlc_server/client（windows）" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build vlc_server/client" />
+        <item itemvalue="Go Build.go build vlc_server/client（windows）" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +163,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -166,15 +179,16 @@
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="608" y="249" width="463" height="582" key="#Build_Tags_&amp;_Vendoring/0.25.1680.1025@0.25.1680.1025" timestamp="1606204273209" />
-    <state x="2672" y="453" key="#GOROOT" timestamp="1606305363507">
-      <screen x="1920" y="-3" width="1920" height="1050" />
+    <state x="658" y="470" key="#GOROOT" timestamp="1606346049861">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="2672" y="453" key="#GOROOT/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606305363507" />
-    <state x="2220" y="-3" width="1092" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606334219009">
-      <screen x="1920" y="-3" width="1920" height="1050" />
+    <state x="658" y="470" key="#GOROOT/0.25.1680.1025@0.25.1680.1025" timestamp="1606346049861" />
+    <state x="602" y="141" width="956" height="870" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606346111577">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state x="2220" y="-3" width="1092" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606334219009" />
-    <state x="602" y="141" width="956" height="797" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606204063624" />
+    <state x="602" y="141" width="956" height="870" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1606346111577" />
     <state x="492" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606205108074">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
@@ -193,26 +207,26 @@
       <screen x="1920" y="-3" width="1920" height="1050" />
     </state>
     <state x="2659" y="277" key="FileChooserDialogImpl/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606333983693" />
-    <state width="937" height="284" key="GridCell.Tab.0.bottom" timestamp="1606340930601">
-      <screen x="1920" y="-3" width="1920" height="1050" />
+    <state width="1638" height="277" key="GridCell.Tab.0.bottom" timestamp="1606346054786">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="937" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606340930601" />
-    <state width="1638" height="342" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1606217658688" />
-    <state width="937" height="284" key="GridCell.Tab.0.center" timestamp="1606340930601">
-      <screen x="1920" y="-3" width="1920" height="1050" />
+    <state width="1638" height="277" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1606346054786" />
+    <state width="1638" height="277" key="GridCell.Tab.0.center" timestamp="1606346054785">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="937" height="284" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606340930601" />
-    <state width="1638" height="342" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1606217658687" />
-    <state width="937" height="284" key="GridCell.Tab.0.left" timestamp="1606340930601">
-      <screen x="1920" y="-3" width="1920" height="1050" />
+    <state width="1638" height="277" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1606346054785" />
+    <state width="1638" height="277" key="GridCell.Tab.0.left" timestamp="1606346054785">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="937" height="284" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606340930601" />
-    <state width="1638" height="342" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1606217658687" />
-    <state width="937" height="284" key="GridCell.Tab.0.right" timestamp="1606340930601">
-      <screen x="1920" y="-3" width="1920" height="1050" />
+    <state width="1638" height="277" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1606346054785" />
+    <state width="1638" height="277" key="GridCell.Tab.0.right" timestamp="1606346054786">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
     <state width="937" height="284" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-3.1920.1050@1920.-3.1920.1050" timestamp="1606340930601" />
-    <state width="1638" height="342" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1606217658688" />
+    <state width="1638" height="277" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1606346054786" />
     <state width="1638" height="342" key="GridCell.Tab.1.bottom" timestamp="1606217658689">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
