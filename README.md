@@ -12,3 +12,31 @@
 ```
 go get github.com/adrg/libvlc-go/v3
 ```
+
+## RTP Stream to VLC
+
+### MacOS
+
+```
+ffmpeg \
+    -f avfoundation \
+    -framerate 30 \
+    -s 1280x720 \
+    -pix_fmt yuyv422 \
+    -re \
+    -i 0:1 \
+    -vf "drawtext=fontfile=/Library/Fonts/Arial.ttf:fontsize=72:fontcolor=blue:text='%{localtime}.%{eif\\:1M*t-1K*trunc(t*1K)\\:d\\:3}'" \
+    -vcodec hevc_videotoolbox \
+    -tag:v hevc \
+    -an \
+    -f rtp \
+    -sdp_file path/to/video.sdp \
+    "rtp://127.0.0.1:5000”
+"
+```
+
+## VLC client
+
+```
+/Applications/VLC.app/Contents/MacOS/VLC  path/to/video.sdp
+```
