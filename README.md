@@ -35,6 +35,23 @@ ffmpeg \
 "
 ```
 
+## for UDP
+```
+ffmpeg \
+    -framerate 30.000030 \
+    -f avfoundation \
+    -pix_fmt uyvy422 \
+    -i "0" \
+    -vf "drawtext=fontfile=/Library/Fonts/Arial.ttf:fontsize=72:fontcolor=blue:text='%{localtime}.%{eif\\:1M*t-1K*trunc(t*1K)\\:d\\:3}'" \
+    -vcodec hevc_videotoolbox \
+    -tag:v hevc \
+    -preset ultrafast \
+    -tune zerolatency \
+    -an \
+    -f mpegts \
+    "udp://192.168.1.3:5555?pkt_size=1316"
+```
+
 ## VLC client
 
 ```
